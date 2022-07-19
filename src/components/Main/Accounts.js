@@ -12,6 +12,8 @@ const Accounts = (props) => {
         return item;
       } else if (item.company.toLowerCase().includes(props.query.toLowerCase())) {
         return item;
+      }else if (item.website.includes(props.query.toLowerCase())) {
+        return item;
       }
     })
     .map((item) => {
