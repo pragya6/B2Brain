@@ -1,0 +1,24 @@
+.items{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 15rem auto;
+  align-items: center;
+  column-gap: 1rem;
+}
+
+.items img{
+  border-radius: 2px;
+}
+
+.items p {
+  margin: 0;
+}
+
+.items > button{
+  width: 3.5rem;
+  height: 2rem;
+  color: #FF6059;
+  background-color: white;
+  border: #FF6059 1px solid;
+  border-radius: 2px;
+}

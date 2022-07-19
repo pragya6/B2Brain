@@ -1,0 +1,64 @@
+.sidebar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15%;
+  height: 100%;
+  padding: 0.1rem;
+  background-color: white;
+  box-shadow: 4px 0px 16px rgba(30, 30, 30, 0.08);
+  z-index: 10;
+}
+
+.header{
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 0 1rem;
+}
+
+.header h1{
+  margin: 0 0.25rem;
+  color: black;
+  font-size: 1.85rem;
+  font-weight: bolder;
+}
+
+.header img{
+  width: 40px;
+  height: 40px;
+  margin: 0.25rem 0.45rem 0 1rem;
+}
+
+.sideContent{
+  left: 0;
+  top: 1rem;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.mainItem{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.collapseContent{
+  width: 70%;
+  margin: 0 2.1rem;
+  padding: 0;
+  list-style: none;
+  border-left: 1px solid rgba(0, 0, 0,0.6);
+}
+
+.collapseItem{
+  width: 100%;
+  margin: 1rem 2.5rem;
+  color: rgba(0, 0, 0,0.6);
+  font-weight: normal;
+  font-size: medium;
+}

@@ -1,0 +1,43 @@
+.flexContainer{
+  width: 100%;
+  margin: 2rem 3rem; 
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.firstFlex > h2{
+  color: rgba(0, 0, 0,0.5);
+  font-weight: bolder;
+  align-self: center;
+}
+
+.gridContainer{
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 3rem;
+  row-gap: 2rem;
+}
+
+.quick ul{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.quick ul li{
+  width: 100%;
+  margin: 1rem;
+  color: black;
+  padding: 0.35rem 0;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.quick li > h2{
+  margin: 0;
+  color: rgba(0, 0, 0,0.5);
+  font-weight: bolder;
+}

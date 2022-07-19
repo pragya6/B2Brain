@@ -1,0 +1,12 @@
+.collapse{
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: white;
+  border: none;
+  padding: 0;
+}
+
+.icon{
+  margin: 0;
+  padding: 0.2rem;
+}

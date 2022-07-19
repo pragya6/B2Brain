@@ -1,0 +1,25 @@
+.mainListItem{
+  width: 100%;
+  margin: 1rem 1rem;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mainListItem a{
+  text-decoration: none;
+  color: black;
+  font-weight: normal;
+  font-size: large;
+}
+
+.mainListItem a:active,a:hover{
+  color: black;
+  font-weight: bold;
+}
+
+.collapse{
+  position: absolute;
+  left: 10.5rem;
+}
