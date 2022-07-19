@@ -1,5 +1,4 @@
 import Container from "../Reusables/Container";
-import RandomText from "../Reusables/RandomText";
 import AccountItems from "./AccountItems";
 import styles from "./Accounts.module.css";
 
