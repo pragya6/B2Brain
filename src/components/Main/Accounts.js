@@ -34,7 +34,7 @@ const Accounts = (props) => {
         <div className={styles.firstFlex}>
           <h2>Similar Accounts</h2>
           <div className={styles.gridContainer}>
-            {dataList}
+            {dataList.length>0 ? dataList : <h2>No Match Found!!</h2>}
           </div>
         </div>
         <div className={styles.quick}>
