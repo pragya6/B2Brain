@@ -23,6 +23,7 @@ const Header = (props) => {
     if (iconCross) {
       setIconCross(false);
       setVal("");
+      props.setQuery("");
       props.onSearchClick(false);
     }
   };
